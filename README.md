@@ -1,4 +1,4 @@
-*Prerequisites
+# Prerequisites
 
 1.	MS SQL Server 2016 SP1
 2.	MS SQL Management Studio
@@ -9,9 +9,9 @@
 7.	SOLR 6.6.2
 8.	Sitecore 9 source  + License
 
-*Steps 
+# Steps 
 
-Please make sure you run CMD or PowerShell run as administrator in all below tasks.
+* Please make sure you run CMD or PowerShell run as administrator in all below tasks.
 
 1.	MS SQL Server 2016 SP1.
 2.	MS SQL Management Studio.
