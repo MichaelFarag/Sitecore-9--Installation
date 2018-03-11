@@ -1,4 +1,4 @@
-# Prerequisites
+*Prerequisites
 
 1.	MS SQL Server 2016 SP1
 2.	MS SQL Management Studio
@@ -7,15 +7,15 @@
 5.	Java Runtime Environment
 6.	NSSM
 7.	SOLR 6.6.2
-8.	Sitecore 9 source  + License.
+8.	Sitecore 9 source  + License
 
-# Steps 
+*Steps 
 
 Please make sure you run CMD or PowerShell run as administrator in all below tasks.
 
-1.	MS SQL Server 2016 SP1 [Open request from MIS].
-2.	MS SQL Management Studio [Open request from MIS].
-3.	.Net Framework 4.6.2 or later [Open request from MIS].
+1.	MS SQL Server 2016 SP1.
+2.	MS SQL Management Studio.
+3.	.Net Framework 4.6.2 or later.
 4.	Install Chocolatey from Here, To make sure install correctly by this command choco –v in cmd and give you latest version.
 5.	Install Java Runtime Environment by this command choco install javaruntime in cmd,To make sure install correctly by this command java –version and and give you latest version.
 6.	Install NSSM package by this command choco install nssm in cmd, To make sure install correctly by this command nssm –v and give you NSSM latest version.
@@ -34,4 +34,3 @@ Please make sure you run CMD or PowerShell run as administrator in all below tas
 19.	Under this folder run PowerShell as administrator.
 20.	Run this command register-PSRepository -Name SitecoreGallaery -Sourcelocation https://sitecore.myget.org/f/sc-powershell/api/v2
 21.	Finally run Install.ps1 to start install Sitecore tasks.
-
